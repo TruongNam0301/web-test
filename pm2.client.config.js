@@ -3,13 +3,10 @@ module.exports = {
     {
       name: "web-test",
       cwd: "/home/test/repos/web-test",
-      script: "node .next/standalone/server.js",
+      script: ".next/standalone/server.js",
       exec_mode: "cluster",
-      instances: "1",
-      env_file: ".env",
-      env: {
-        PORT: 3000,
-      },
+      instances: 1,
+      env_file: "/home/test/repos/web-test/.env",
     },
   ],
 };
