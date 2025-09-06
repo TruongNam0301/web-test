@@ -13,7 +13,7 @@ module.exports = {
   apps: [
     {
       name: "web-test",
-      script: ".next/standalone/server.js",
+      script: "server.js",
       exec_mode: "cluster",
       instances: 1,
       env: loadEnv(),
