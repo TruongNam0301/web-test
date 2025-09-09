@@ -26,7 +26,10 @@ export default function Home() {
           priority
         />
         {process.env.NEXT_PUBLIC_NODE_ENV}
-        TEST - ENV
+        TEST - ENV dkjasdoklasjd asdjkashnd koaslkd jasddnaskmldjoas dasm,
+        <data value="asdkklasdlaskd;askld';askdklanskldaskl">
+          dasl;dk;alsjdlkasd dklasjdlkasjdklaskjl
+        </data>
         <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
